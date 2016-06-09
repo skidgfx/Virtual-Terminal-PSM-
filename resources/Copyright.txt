@@ -1,0 +1,36 @@
+IF YOU DO NOT AGREE TO THE FOLLOWING CONDITIONS, DO NOT USE THIS SOFTWARE!
+Terms and Conditions of Use of Virtual Terminal
+
+1  Acceptance The Use Of Virtual Terminal Terms and Conditions
+
+Your access to and use of Tactician Studios LLC software is subject exclusively to these Terms and Conditions. You will not use this software for any purpose that is unlawful or prohibited by these Terms and Conditions. By using the software you are fully accepting the terms, conditions and disclaimers contained in this notice. If you do not accept these Terms and Conditions you must immediately stop using the software.
+
+2  Change of Use
+
+Tactician Studios LLC reserves the right to:
+2.1  change or remove (temporarily or permanently) the software or any part of it without notice and you confirm that Tactician Studios LLC shall not be liable to you for any such change or removal and.
+2.2  change these Terms and Conditions at any time, and your continued use of the software following any changes shall be deemed to be your acceptance of such change.
+
+3  Copyright
+
+3.1  All copyright, trade marks and all other intellectual property rights in the software and its content (including without limitation the software design, text, graphics and all software and source codes connected with the software) are owned by or licensed to Tactician Studios LLC or otherwise used by Tactician Studios LLC as permitted by law.
+3.2  In accessing the software you agree that you will access the content solely for your personal, non-commercial use. None of the content may be downloaded, copied, reproduced, transmitted, stored, sold or distributed without the prior written consent of the copyright holder. This excludes the downloading, copying and/or printing of pages of the software for personal, non-commercial home use only.
+
+4  Disclaimers and Limitation of Liability
+
+4.1  The software is provided on an AS IS and AS AVAILABLE basis without any representation or endorsement made and without warranty of any kind whether express or implied, including but not limited to the implied warranties of satisfactory quality, fitness for a particular purpose, non-infringement, compatibility, security and accuracy.
+4.2  To the extent permitted by law, Tactician Studios LLC will not be liable for any indirect or consequential loss or damage whatever (including without limitation loss of business, opportunity, data, profits) arising out of or in connection with the use of the software.
+4.3  Tactician Studios LLC makes no warranty that the functionality of the software will be uninterrupted or error free, that defects will be corrected or that the software or the server that makes it available are free of viruses or anything else which may be harmful or destructive.
+4.4  Nothing in these Terms and Conditions shall be construed so as to exclude or limit the liability of Tactician Studios LLC for death or personal injury as a result of the negligence of Tactician Studios LLC or that of its employees or agents.
+
+5  Indemnity
+
+You agree to indemnify and hold Tactician Studios LLC and its employees and agents harmless from and against all liabilities, legal fees, damages, losses, costs and other expenses in relation to any claims or actions brought against Tactician Studios LLC arising out of any breach by you of these Terms and Conditions or other liabilities arising out of your use of this software.
+
+6  Severance
+
+If any of these Terms and Conditions should be determined to be invalid, illegal or unenforceable for any reason by any court of competent jurisdiction then such Term or Condition shall be severed and the remaining Terms and Conditions shall survive and remain in full force and effect and continue to be binding and enforceable.
+
+7  Governing Law
+
+These Terms and Conditions shall be governed by and construed in accordance with the law of USA and you hereby submit to the exclusive jurisdiction of the USA courts.

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{437FED17-28BD-4B91-8AC5-5A0C9987C2F9}</ProjectGuid>
+    <ProjectTypeGuids>{69878862-DA7D-4DC6-B0A1-50D8FAB4242F};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>AppData3088261ATSI</RootNamespace>
+    <AssemblyName>AppData-3088261A-TSI</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Sce.PlayStation.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Mono.CSharp" />
+    <Reference Include="Sce.PlayStation.HighLevel.GameEngine2D" />
+    <Reference Include="Sce.PlayStation.HighLevel.Physics2D" />
+    <Reference Include="Sce.PlayStation.HighLevel.JsonHelper" />
+    <Reference Include="Sce.PlayStation.HighLevel.UI" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="intro.cs" />
+    <Compile Include="game.cs" />
+    <Compile Include="Terminal.composer.cs" />
+    <Compile Include="Terminal.cs" />
+    <Compile Include="UIStringTable.cs" />
+    <Compile Include="OS.cs" />
+    <Compile Include="AppMain.cs" />
+    <Compile Include="WebData.cs" />
+    <Compile Include="TermsData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ShaderProgram Include="shaders\Simple.fcg" />
+    <ShaderProgram Include="shaders\Simple.vcg" />
+    <ShaderProgram Include="shaders\Sprite.fcg" />
+    <ShaderProgram Include="shaders\Sprite.vcg" />
+    <ShaderProgram Include="shaders\Font.fcg" />
+    <ShaderProgram Include="shaders\Font.vcg" />
+    <ShaderProgram Include="shaders\Line.fcg" />
+    <ShaderProgram Include="shaders\Line.vcg" />
+    <ShaderProgram Include="shaders\PackedSprite.fcg" />
+    <ShaderProgram Include="shaders\PackedSprite.vcg" />
+    <ShaderProgram Include="shaders\SimpleSprite.fcg" />
+    <ShaderProgram Include="shaders\SimpleSprite.vcg" />
+    <ShaderProgram Include="shaders\SpriteB.fcg" />
+    <ShaderProgram Include="shaders\SpriteB.vcg" />
+  </ItemGroup>
+  <ItemGroup>
+    <PsmMetadata Include="app.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sce\Sce.Psm.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="resources\logo.png" />
+    <Content Include="resources\logo.jpg" />
+    <Content Include="resources\Player.png" />
+    <Content Include="resources\settings.dat" />
+    <Content Include="resources\terms.dat" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\Public\Documents\PSM\sample\Tutorial\TutoLib\TutoLib.csproj">
+      <Project>{0A29F05D-DB9F-4045-8F41-401F9FE31638}</Project>
+      <Name>TutoLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Terminal_App_LanguageTable.csv" />
+  </ItemGroup>
+</Project>
